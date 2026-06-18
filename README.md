@@ -8,10 +8,11 @@ markets — turning ideas into data, measurement, and honest results.
 ## Currently
 
 Measuring how well **Kalshi** and **Polymarket** track the underlying for
-**BTC**: when Bitcoin moves, who reprices first — the exchanges or the coin?
-A 24/7 cross-venue tick recorder captures both venues' order books on one
-chrony-disciplined clock, alongside a Coinbase spot feed as ground truth,
-streaming into a GCS data lake analyzed with DuckDB.
+**BTC**: when the price moves, do the prediction markets lead or lag it, and
+which venue reprices first? A 24/7 cross-venue tick recorder captures both
+venues' order books on one chrony-disciplined clock, with BTC spot from
+Coinbase as the ground-truth clock, streaming into a GCS data lake analyzed
+with DuckDB.
 
 Code: **[kalshi-polymarket-research](https://github.com/jdeepsingh28/kalshi-polymarket-research)**
 
