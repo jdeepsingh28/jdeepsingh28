@@ -1,25 +1,30 @@
 # Jaideep Singh
 
-Quantitative finance student building prediction-market research infrastructure.
+Quantitative finance student, building on prediction markets.
+**Math first, money second.**
 
-## Projects
+As I learn this field, I try to apply what I pick up to real prediction
+markets — turning ideas into data, measurement, and honest results
+(negative ones included).
 
-### Cross-Venue Prediction-Market Research
+## Currently
 
-Capturing tick-level market data for the same events on Kalshi and Polymarket
-to study cross-venue spread, mispricings, and price discovery.
+Measuring how well **Kalshi** and **Polymarket** track the underlying for
+**BTC**: when Bitcoin moves, who reprices first — the exchanges or the coin?
+A 24/7 cross-venue tick recorder captures both venues' order books on one
+chrony-disciplined clock, alongside a Coinbase spot feed as ground truth,
+streaming into a GCS data lake analyzed with DuckDB.
 
-- Dual-venue tick recorder (Kalshi signed-RSA WebSocket + Polymarket CLOB
-  WebSocket) running 24/7 on GCP.
-- Capture raw, normalize later: every message saved to a raw tape, mirrored
-  to a GCS data lake, then converted to venue-neutral, time-partitioned Parquet.
-- Both venues stamped on one chrony-disciplined clock, so cross-venue lead-lag
-  is signal, not clock skew.
+More as the research grows.
 
-*Repository publishing soon.*
+---
+
+*Updated whenever I have a new project or result to add. Hope you enjoy.*
 
 <!--
-  Draft scaffold. Next slots to fill:
-  ### Algorithmic Trading System
-  ### (anything else worth featuring)
+  Project slots to add as repos / results land:
+  - Cross-venue BTC tracking (kalshi-polymarket-research) -- link + pin when public
+  - Ingesting whole categories on Kalshi
+  - Cross-venue election study (honest negative result)
+  - Algorithmic Trading System
 -->
