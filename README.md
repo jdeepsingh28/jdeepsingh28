@@ -1,7 +1,6 @@
 # Jaideep Singh
 
 Quantitative finance student, building on prediction markets.
-**Math first, money second.**
 
 As I learn this field, I try to apply what I pick up to real prediction
 markets — turning ideas into data, measurement, and honest results.
