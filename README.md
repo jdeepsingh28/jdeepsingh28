@@ -14,6 +14,12 @@ A 24/7 cross-venue tick recorder captures both venues' order books on one
 chrony-disciplined clock, alongside a Coinbase spot feed as ground truth,
 streaming into a GCS data lake analyzed with DuckDB.
 
+## Projects
+
+- **[kalshi-category-ingest](https://github.com/jdeepsingh28/kalshi-category-ingest)**
+  — map Kalshi's full open-market catalog and ingest any category to Parquet
+  for analysis.
+
 More as the research grows.
 
 ---
@@ -23,7 +29,6 @@ More as the research grows.
 <!--
   Project slots to add as repos / results land:
   - Cross-venue BTC tracking (kalshi-polymarket-research) -- link + pin when public
-  - Ingesting whole categories on Kalshi
   - Cross-venue election study (honest negative result)
   - Algorithmic Trading System
 -->
