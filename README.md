@@ -22,8 +22,6 @@ Code: **[kalshi-polymarket-research](https://github.com/jdeepsingh28/kalshi-poly
   — map Kalshi's full open-market catalog and ingest any category to Parquet
   for analysis.
 
-More as the research grows.
-
 ---
 
 *Updated whenever I have a new project or result to add. Hope you enjoy.*
