@@ -2,7 +2,7 @@
 
 Quantitative finance student, building on prediction markets.
 
-As I learn this field, I try to apply what I pick up to real prediction
+As I learn this field, I try to apply what I pick up to prediction
 markets — turning ideas into data, measurement, and honest results.
 
 ## Currently
