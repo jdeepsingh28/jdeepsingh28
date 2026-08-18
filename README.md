@@ -1,19 +1,21 @@
 # Jaideep Singh
 
-Quantitative finance student, building on prediction markets.
+MS Quantitative Finance at Fordham. Building on prediction markets.
 
 As I learn this field, I try to apply what I pick up to prediction
 markets — turning ideas into data, measurement, and honest results.
 
 ## Currently
 
-Earning liquidity-program rewards on **Kalshi** — soon **Polymarket** too —
-by market-making: posting continuous two-sided quotes to provide depth and
-capture each venue's liquidity incentives. The same events trade on both
-venues, so the real edge is doing this *across* them and watching the gap
-between — cross-venue spread, mispricings, price discovery.
+**Market making on Kalshi.** An automated engine posts continuous two-sided,
+post-only quotes, running 24/7 on a GCE VM under systemd. This is market
+making, not directional trading: the system quotes both sides of a market
+rather than taking a view on the outcome.
 
-That all rests on recording both feeds faithfully, which is the public piece:
+**Cross-venue research across Kalshi and Polymarket.** The same events list on
+both venues, and the gap between them is where the interesting questions live —
+cross-venue spread, mispricing, price discovery. That rests on recording both
+feeds faithfully, which is the public piece:
 **[Cross-Venue-Market-Data-Research](https://github.com/jdeepsingh28/Cross-Venue-Market-Data-Research)**
 captures both venues' order books on one venue-neutral core — surviving
 disconnects and *proving* it never silently dropped a message. Two venues, two
