@@ -15,16 +15,16 @@ financial programming, and pointing what I pick up at prediction markets.
 **Market making on Kalshi (June–August 2026).** An automated engine posted continuous two-sided,
 post-only quotes 24/7 on a GCE VM under systemd, into Kalshi's liquidity-incentive program. This was
 market making, not directional trading: the system quoted both sides of a market rather than taking a
-view on the outcome. Kalshi's program sunset on 2026-09-01 and the engine was retired with it.
+view on the outcome.
 
 **Cross-venue research across Kalshi and Polymarket (April–June 2026).** The same events list on
 both venues, and the gap between them is where the interesting questions live — cross-venue spread,
-mispricing, price discovery. That rested on recording both feeds faithfully, which is the public piece:
+mispricing, price discovery. That rested on recording both feeds faithfully —
 **[Cross-Venue-Market-Data-Research](https://github.com/jdeepsingh28/Cross-Venue-Market-Data-Research)**
 captures both venues' order books on one venue-neutral core — surviving disconnects and *proving* it
 never silently dropped a message. Two venues, two integrity models (Polymarket's book-hash vs. Kalshi's
 sequence contiguity), recovering through one shared resync path. It recorded 14 consecutive days across
-both venues; the write-up of what that data says is still to come.
+both venues.
 
 ## Projects
 
