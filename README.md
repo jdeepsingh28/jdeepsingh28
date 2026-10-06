@@ -7,7 +7,6 @@ markets — turning ideas into data, measurement, and honest results.
 
 ## Currently
 
-**MS Quantitative Finance at Fordham**, graduating December 2027 — studying and applying what I pick up on prediction markets.
 
 ## Projects
 
