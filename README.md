@@ -7,6 +7,28 @@ markets — turning ideas into data, measurement, and honest results.
 
 ## Currently
 
+Building a 24/7 capture system for Kalshi and Polymarket market data: every WebSocket message
+recorded to hourly tapes, published to versioned cloud storage, and checked each morning against
+the venues' own records.
+
+## Recently
+
+**Live capture.** A recorder runs 24/7 on Kalshi and Polymarket, capturing every order-book update
+and trade for the events both venues price — Fed decisions, CPI prints, and NFL and college-football
+games — plus every commodity market on Kalshi. Each day of data is checked for completeness before
+it is used for research.
+
+<!-- CAPTURE-STATS:START — everything between these markers is rewritten by the daily update. -->
+
+| | Kalshi | Polymarket |
+|---|---|---|
+| Hours recorded, last 7 days | 168 of 168 | 168 of 168 |
+| Seconds with no recorder running, last 7 days | 9.5 s | 9.5 s |
+| Order books rebuilt and checked against the venue, last 7 days | checked 7 of 7 days, mismatches on 3 | checked 1 of 7 days, no mismatches |
+
+*Recording daily since 2026-09-19. This covers 2026-09-29 to 2026-10-05 (UTC). Updated 2026-10-06.*
+
+<!-- CAPTURE-STATS:END -->
 
 ## Projects
 
