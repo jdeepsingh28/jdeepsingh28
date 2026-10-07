@@ -10,7 +10,7 @@ markets — turning ideas into data, measurement, and honest results.
 Maintaining a 24/7 capture system for Kalshi and Polymarket market data: every WebSocket message
 recorded to hourly tapes, published to versioned cloud storage, and checked each morning against
 the venues' own records.
-- Both Venues: Fed decisions, CPI/Inflation, NFL/CFB games 
+- Both Venues: Fed decisions, CPI/Inflation, NFL/CFB games
 - Only Kalshi: every commodity market
 
 <!-- CAPTURE-STATS:START — everything between these markers is rewritten by the daily update. -->
