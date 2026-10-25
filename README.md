@@ -21,7 +21,7 @@ the venues' own records.
 | Seconds with no recorder running, last 7 days | 50.0 s | 49.9 s |
 | Order books rebuilt and checked against the venue, last 7 days | checked 7 of 7 days, mismatches on 2 | checked 7 of 7 days, no mismatches |
 
-*Recording daily since 2026-09-19. This covers 2026-10-17 to 2026-10-23 (UTC). Updated 2026-10-24.*
+*Recording daily since 2026-09-19. This covers 2026-10-18 to 2026-10-24 (UTC). Updated 2026-10-25.*
 
 <!-- CAPTURE-STATS:END -->
 
