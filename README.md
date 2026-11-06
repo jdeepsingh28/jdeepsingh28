@@ -18,10 +18,10 @@ the venues' own records.
 | | Kalshi | Polymarket |
 |---|---|---|
 | Hours recorded, last 7 days | 168 of 168 | 168 of 168 |
-| Seconds with no recorder running, last 7 days | 1.0 s | 10.5 s |
-| Order books rebuilt and checked against the venue, last 7 days | checked 7 of 7 days, mismatches on 3 | checked 7 of 7 days, no mismatches, other faults on 2 |
+| Seconds with no recorder running, last 7 days | 2.0 s | 11.7 s |
+| Order books rebuilt and checked against the venue, last 7 days | checked 7 of 7 days, mismatches on 4 | checked 7 of 7 days, no mismatches, other faults on 3 |
 
-*Recording daily since 2026-09-19. This covers 2026-10-29 to 2026-11-04 (UTC). Updated 2026-11-05.*
+*Recording daily since 2026-09-19. This covers 2026-10-30 to 2026-11-05 (UTC). Updated 2026-11-06.*
 
 <!-- CAPTURE-STATS:END -->
 
