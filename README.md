@@ -20,9 +20,9 @@ the venues' own records.
 | Hours recorded, last 7 days | 168 of 168 | 168 of 168 |
 | Seconds with no recorder running, last 7 days | 0.0 s | 0.0 s |
 | Order books rebuilt and checked against the venue, last 7 days | checked 7 of 7 days, mismatches on 3 | checked 7 of 7 days, no mismatches |
-| Markets subscribed at any time on 2026-11-26 | 23,389 | 1,419 |
+| Markets subscribed at any time on 2026-11-27 | 28,850 | 1,486 |
 
-*Recording daily since 2026-09-19. This covers 2026-11-20 to 2026-11-26 (UTC). Updated 2026-11-27.*
+*Recording daily since 2026-09-19. This covers 2026-11-21 to 2026-11-27 (UTC). Updated 2026-11-28.*
 
 <!-- CAPTURE-STATS:END -->
 
